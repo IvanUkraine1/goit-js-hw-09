@@ -1,0 +1,29 @@
+main {
+    width: 100vw;
+}
+
+.container {
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 24px 156px;
+    list-style: none;
+}
+
+.gallery-image{
+    width: 360px;
+    height: 200px;
+}
+
+.gallery-image:hover {
+    cursor:pointer;
+}
+
+.sl-overlay {
+    background: rgba(46, 47, 66, 0.8);
+}

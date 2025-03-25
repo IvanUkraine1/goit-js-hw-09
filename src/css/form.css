@@ -1,0 +1,53 @@
+* {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4%;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-form {
+    margin-top: 2rem;
+  }
+
+.feedback-form, label{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    gap: 8px;
+}
+  
+input {
+    height: 40px;
+    padding: 16px 8px;
+}
+  
+textarea {
+    height: 80px;
+    resize: none;
+    padding-left: 8px;
+}
+
+input:hover, textarea:hover{
+    border-color: rgba(0, 0, 0, 1);
+}
+
+.feedback-form button {
+    background-color: rgba(78, 117, 255, 1);
+    padding: 8px 16px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 8px;
+    max-width: fit-content;
+    margin-top: 8px;
+}
+
+.feedback-form button:hover {
+    background-color: rgba(108, 140, 255, 1);
+}
